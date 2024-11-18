@@ -1,9 +1,10 @@
 import "./App.css";
+import Home from "./components/home";
 
 function App() {
   return (
     <>
-      <h1 className=" text-5xl font-bold text-center mt-5">Hello Crevosys</h1>
+     <Home/>
     </>
   );
 }
