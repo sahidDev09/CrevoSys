@@ -1,7 +1,26 @@
 const Navbar = () => {
   return (
-    <div className="navbar container mx-auto">
+    <div className="navbar container mx-auto py-5">
       <div className="navbar-start">
+        <img src="crevoSysNav.png" alt="navlogo" className="w-40" />
+      </div>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1 text-white">
+          <li>
+            <a>Home</a>
+          </li>
+          <li>
+            <a>Blogs</a>
+          </li>
+          <li>
+            <a>Projects</a>
+          </li>
+          <li>
+            <a>About us</a>
+          </li>
+        </ul>
+      </div>
+      <div className="navbar-end">
         <div className="dropdown">
           <div
             tabIndex={0}
@@ -23,7 +42,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 -ml-40 w-52 p-2 shadow">
             <li>
               <a>Home</a>
             </li>
@@ -38,25 +57,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <img src="logo.png" alt="navlogo" className=" w-44" />
-      </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-white">
-          <li>
-            <a>Home</a>
-          </li>
-          <li>
-            <a>Blogs</a>
-          </li>
-          <li>
-            <a>Projects</a>
-          </li>
-          <li>
-            <a>About us</a>
-          </li>
-        </ul>
-      </div>
-      <div className="navbar-end">
         <div>
           <button
             type="submit"
