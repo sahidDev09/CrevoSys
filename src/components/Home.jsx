@@ -1,11 +1,13 @@
 import Hero from "./Hero";
 import Navbar from "./Navbar";
+import Teams from "./Teams";
 
 const Home = () => {
   return (
-    <div className="bg-gradient-to-t from-[#070707] to-[#221f35] h-screen">
+    <div>
       <Navbar />
       <Hero />
+      <Teams />
     </div>
   );
 };

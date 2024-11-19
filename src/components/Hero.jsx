@@ -17,7 +17,7 @@ const Hero = () => {
       </div>
       <div className="flex mt-3 items-center justify-center">
         <h1 className="text-white md:text-8xl text-4xl font-semibold tracking-wide">
-          Cretivity Sparks <br />{" "}
+          Creativity Sparks <br />{" "}
           <span className="mt-3 items-center justify-center flex">
             Revolution
           </span>{" "}
