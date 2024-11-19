@@ -1,23 +1,66 @@
 const Navbar = () => {
   return (
-    <div>
-      <div className="md:flex justify-around items-center">
-        <img className="w-44 mx-auto md:mx-0" src="logo.png" alt="" />
-        <div className="flex gap-10 justify-center mb-4 md:mb-0 cursor-pointer items-center text-white">
-          <a href="">Home</a>
-          <a href="" className="hidden md:inline-block">
-            Blog
-          </a>
-          <a href="">About Us</a>
-          <a href="" className="hidden md:inline-block">
-            Projects
-          </a>
-          <a href="">Team</a>
+    <div className="navbar container mx-auto">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost lg:hidden text-white">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li>
+              <a>Home</a>
+            </li>
+            <li>
+              <a>Blogs</a>
+            </li>
+            <li>
+              <a>Projects</a>
+            </li>
+            <li>
+              <a>About us</a>
+            </li>
+          </ul>
         </div>
+        <img src="logo.png" alt="navlogo" className=" w-44" />
+      </div>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1 text-white">
+          <li>
+            <a>Home</a>
+          </li>
+          <li>
+            <a>Blogs</a>
+          </li>
+          <li>
+            <a>Projects</a>
+          </li>
+          <li>
+            <a>About us</a>
+          </li>
+        </ul>
+      </div>
+      <div className="navbar-end">
         <div>
           <button
             type="submit"
-            className="flex justify-center gap-2 items-center mx-auto shadow-xl text-lg  backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 text-white before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-orange-400 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 hover:border-none relative z-10 px-4 py-2 overflow-hidden border  rounded-full group">
+            className="hidden md:inline-flex justify-center gap-2 items-center mx-auto shadow-xl text-lg  backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 text-white before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-orange-400 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 hover:border-none relative z-10 px-4 py-2 overflow-hidden border  rounded-full group">
             Contact Us
             <svg
               className="w-8 h-8 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-gray-50 bg-orange-400 ease-linear duration-300 rounded-full border-gray-700 group-hover:border-none p-2 rotate-45"
