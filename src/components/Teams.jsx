@@ -23,6 +23,11 @@ const Teams = () => {
     },
     {
       id: 5,
+      picture: "navid_withoutGlow.jpg",
+      name: "NAVID",
+    },
+    {
+      id: 6,
       picture: "sumon_withoutGlow.jpg",
       name: "SUMON",
     },
@@ -30,7 +35,7 @@ const Teams = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-5 gap-5 py-10 mx-10">
+      <div className="grid grid-cols-6 gap-5 py-10 mx-10">
         {teams.map((team) => (
           <div key={team.id}>
             <img className=" rounded-2xl" src={team.picture} alt="ntg" />
