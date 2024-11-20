@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
       <div className="flex md:mt-10 mt-5 items-center justify-center">
         <div className="rounded-full bg-gradient-to-r from-[#FFB16B] to-[#996A40] md:p-3 p-2 text-white">
-          <p className="font-semibold text-black">Meet Our Awesome Team</p>
+          <p className="font-semibold text-black">Meet Our Founders</p>
         </div>
       </div>
     </div>
