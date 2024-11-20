@@ -1,10 +1,10 @@
 const Teams = () => {
   const teams = [
-    { id: 1, picture: "sahid_withoutGlow.jpg", name: "SAHID" },
-    { id: 2, picture: "joyant_withoutGlow.jpg", name: "JOYANT" },
-    { id: 3, picture: "mumu_withoutGlow.jpg", name: "MUMU" },
-    { id: 4, picture: "abid_withoutGlow.jpg", name: "ABID" },
-    { id: 5, picture: "navid_withoutGlow.jpg", name: "NAVID" },
+    { id: 1, picture: "sahid_withoutGlow.jpg", name: "SAHID - CEO" },
+    { id: 2, picture: "joyant_withoutGlow.jpg", name: "JOYANT - CTO" },
+    { id: 3, picture: "mumu_withoutGlow.jpg", name: "MUMU - CBO" },
+    { id: 4, picture: "abid_withoutGlow.jpg", name: "ABID - COO" },
+    { id: 5, picture: "navid_withoutGlow.jpg", name: "NAVID - CPO" },
   ];
 
   return (
@@ -23,8 +23,10 @@ const Teams = () => {
                   "_withGlow"
                 )})`,
               }}>
-                <h1>{team.name}</h1>
+              <div className="absolute bottom-0 text-center flex flex-col mx-auto w-full bg-gradient-to-t from-[#070707] to-transparent">
+                <h1 className=" font-semibold mb-5 text-white">{team.name}</h1>
               </div>
+            </div>
 
             <img
               className="relative rounded-2xl group-hover:opacity-0 transition-opacity duration-300"
@@ -33,7 +35,6 @@ const Teams = () => {
             />
           </div>
         ))}
-        
       </div>
     </div>
   );
