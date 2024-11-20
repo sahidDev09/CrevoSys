@@ -3,46 +3,6 @@ import './style.css';
 const Footer = () => {
     return (
       <footer className="footer flex flex-col text-base-content border-base-300 border-t px-10 py-4">
-        <div class="flex w-full justify-between px-5 pt-5">
-            <div class="flex flex-col space-y-4">
-                <h2 class="font-bold text-xl">Services</h2>
-                <ul class="space-y-2">
-                <li><a href="#" class="hover:underline">Web Development</a></li>
-                <li><a href="#" class="hover:underline">UI/UX && Graphics Design</a></li>
-                <li><a href="#" class="hover:underline">Mobile Application Development</a></li>
-                <li><a href="#" class="hover:underline">Software Development</a></li>
-                <li><a href="#" class="hover:underline">Digital Marketing</a></li>
-                </ul>
-            </div>
-            <div class="flex flex-col space-y-4">
-                <h2 class="font-bold text-xl">Company</h2>
-                <ul class="space-y-2">
-                <li><a href="#" class="hover:underline">About</a></li>
-                    <li><a href="#" class="hover:underline">Contact us</a></li>
-                    <li><a href="#" class="hover:underline">Blog</a></li>
-                    <li><a href="#" class="hover:underline">Team</a></li>
-                </ul>
-            </div>
-            <div class="flex flex-col space-y-4">
-                <h2 class="font-bold text-xl">Legal</h2>
-                <ul class="space-y-2">
-                    <li><a href="#" class="hover:underline">Terms of use</a></li>
-                    <li><a href="#" class="hover:underline">Privacy policy</a></li>
-                    <li><a href="#" class="hover:underline">Cookie policy</a></li>
-                </ul>
-            </div>
-    
-            <div class="flex flex-col space-y-4">
-                <h2 class="font-bold text-xl">Support</h2>
-                <ul class="space-y-2">
-                    <li><a href="#" class="hover:underline">Getting started</a></li>
-                    <li><a href="#" class="hover:underline">Help center</a></li>
-                    <li><a href="#" class="hover:underline">Server status</a></li>
-                    <li><a href="#" class="hover:underline">Report a bug</a></li>
-                    <li><a href="#" class="hover:underline">Chat support</a></li>
-                </ul>
-            </div>
-        </div>
 
         <div className="flex justify-between px-5 w-full">
             <div className="grid-flow-col items-center">
