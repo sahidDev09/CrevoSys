@@ -1,6 +1,7 @@
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Teams from "./Teams";
+import Footer from "./footer";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Teams />
+      <Footer />
     </div>
   );
 };
