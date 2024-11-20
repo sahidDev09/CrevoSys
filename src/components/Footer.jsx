@@ -2,16 +2,15 @@ import './style.css';
 
 const Footer = () => {
     return (
-      <footer className="footer flex flex-col text-base-content border-base-300 border-t px-10 py-4">
-
-        <div className="flex justify-between px-5 w-full">
-            <div className="grid-flow-col items-center">
-                <div>
+      <footer className="footer container mx-auto flex flex-col text-base-content border-base-300 border-t px-10 py-4">
+        <div className="md:flex justify-between items-center px-5 w-full">
+            <div className="md:flex mx-auto md:mx-0 text-center md:text-start ">
+                <div className='flex items-center mx-auto justify-center'>
                     <img className="w-16 h-16" src="crevoicon.png" alt="" />
                 </div>
                 <p><span class="text-xl font-bold">CrevoSys</span><br /> Build innovative systems for a better tomorrow</p>
             </div>
-            <div className="md:place-self-center md:justify-self-end">
+            <div className="md:place-self-center md:justify-self-end mx-auto md:mx-0">
                 <div className="grid grid-flow-col gap-4">
                     <ul class="wrapper">
                     <li class="icon facebook">
