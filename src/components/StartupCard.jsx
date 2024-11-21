@@ -8,7 +8,7 @@ const StartupCard = () => {
       </h1>
       <div className=" relative">
         <div className=" absolute z-10 right-0 -bottom-10 hidden md:inline">
-          <img className=" w-96" src="/public/Right-hand.webp" alt="" />
+          <img className=" w-96" src="/Right-hand.webp" alt="" />
         </div>
         <div className="relative h-[550px] w-full rounded-2xl container mx-auto bg-gradient-to-b from-[#F6AA68] to-[#90643D] overflow-hidden">
           <div className=" absolute h-96 w-96 bg-gradient-to-b from-[#A542E2] to-[#1BB6EB] rounded-full bg-no-repeat -top-14 -right-14 bg-contain "></div>
@@ -19,7 +19,7 @@ const StartupCard = () => {
               <div className=" flex md:gap-10 items-center">
                 <img
                   className=" md:w-36 w-20 rounded-full"
-                  src="/public/Rectangle.png"
+                  src="/Rectangle.png"
                   alt=""
                 />
                 <h1 className=" text-black text-3xl w-[500px] font-semibold hidden md:inline">
