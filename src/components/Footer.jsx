@@ -2,8 +2,8 @@ import "./style.css";
 
 const Footer = () => {
   return (
-    <footer className="footer container mx-auto flex flex-col text-base-content border-base-300 border-t px-10 py-4">
-      <div className="md:flex justify-between items-center px-5 w-full">
+    <footer className="footer flex flex-col bg-zinc-900 text-base-content border-base-300 border-t px-10 py-4">
+      <div className="md:flex justify-between items-center px-5 w-full container mx-auto ">
         <div className="md:flex mx-auto md:mx-0 text-center md:text-start ">
           <div className="flex items-center mx-auto justify-center">
             <img className="w-16 h-16" src="crevoicon.png" alt="" />

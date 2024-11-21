@@ -1,5 +1,6 @@
 import Hero from "./Hero";
 import Navbar from "./Navbar";
+import Services from "./Services";
 import Teams from "./Teams";
 import Footer from "./footer";
 import StartupCard from "./startupCard";
@@ -11,7 +12,7 @@ const Home = () => {
       <Hero />
       <Teams />
       <StartupCard />
-      <hr className=" my-10 border-gray-600" />
+      <Services />
       <Footer />
     </div>
   );
