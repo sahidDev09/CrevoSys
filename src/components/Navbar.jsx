@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Navbar = () => {
-  const navigate = useNavigate();
   return (
     <div className="navbar container mx-auto py-5">
       <div className="navbar-start">
@@ -63,8 +60,7 @@ const Navbar = () => {
         <div>
           <button
             type="submit"
-            onClick={() => navigate("/contact")}
-            className="hidden md:inline-flex justify-center gap-2 items-center mx-auto shadow-xl text-lg  backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 text-white before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-orange-400 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 hover:border-none relative z-10 px-4 py-2 overflow-hidden border  rounded-full group">
+            className="hidden md:inline-flex justify-center gap-2 items-center mx-auto shadow-xl text-lg  backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 text-white before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-orange-400 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 hover:border-none relative z-10 px-4 py-2 overflow-hidden border rounded-full group">
             Contact Us
             <svg
               className="w-8 h-8 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-gray-50 bg-orange-400 ease-linear duration-300 rounded-full border-gray-700 group-hover:border-none p-2 rotate-45"

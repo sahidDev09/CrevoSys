@@ -4,12 +4,12 @@ const Teams = () => {
     { id: 2, picture: "joyant_withoutGlow.jpg", name: "JOYANT - CTO" },
     { id: 3, picture: "mumu_withoutGlow.jpg", name: "MUMU - CBO" },
     { id: 4, picture: "abid_withoutGlow.jpg", name: "ABID - COO" },
-    { id: 5, picture: "navid_withoutGlow.jpg", name: "NAVID - CPO" },
+    
   ];
 
   return (
     <div>
-      <div className="grid md:grid-cols-5 gap-5 py-10 px-10">
+      <div className="grid md:grid-cols-4 gap-5 py-14 px-10 bg-[#0F0D13]">
         {teams.map((team) => (
           <div
             key={team.id}

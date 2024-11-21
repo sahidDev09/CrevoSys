@@ -7,7 +7,7 @@ import StartupCard from "./startupCard";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-gradient-to-t from-[#070707] to-[#221f35] h-screen">
       <Navbar />
       <Hero />
       <Teams />
