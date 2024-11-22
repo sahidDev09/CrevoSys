@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import "./style.css";
 import emailjs from "@emailjs/browser";
-import Navbar from "./Navbar";
 
 const Contact = () => {
   const form = useRef();
@@ -23,7 +22,6 @@ const Contact = () => {
   };
   return (
     <div>
-      <Navbar />
       <section className="flex justify-center items-center min-h-screen">
         <form
           ref={form}

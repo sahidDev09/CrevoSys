@@ -1,19 +1,19 @@
-const Teams = () => {
+const TeamsMember = () => {
   const teams = [
     { id: 1, picture: "sahid_withoutGlow.jpg", name: "SAHID - CEO" },
     { id: 2, picture: "joyant_withoutGlow.jpg", name: "JOYANT - CTO" },
     { id: 3, picture: "mumu_withoutGlow.jpg", name: "MUMU - CBO" },
     { id: 4, picture: "abid_withoutGlow.jpg", name: "ABID - COO" },
-    
+    { id: 5, picture: "sumon_withoutGlow.jpg", name: "SUMON - CMO" },
   ];
 
   return (
     <div>
-      <div className="grid md:grid-cols-4 gap-5 py-14 px-10">
+      <div className="grid md:grid-cols-3 gap-5 py-14 px-10">
         {teams.map((team) => (
           <div
             key={team.id}
-            className="relative group hover:scale-105 transition-all rounded-2xl overflow-hidden">
+            className="relative group transition-all rounded-2xl overflow-hidden">
             {/* Background image for hover */}
             <div
               className="absolute inset-0 bg-cover bg-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -40,4 +40,4 @@ const Teams = () => {
   );
 };
 
-export default Teams;
+export default TeamsMember;

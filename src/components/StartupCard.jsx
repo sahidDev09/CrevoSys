@@ -2,7 +2,7 @@ import { ShieldCheck } from "lucide-react";
 
 const StartupCard = () => {
   return (
-    <div className=" m-4 md:m-0 md:pb-20 py-10">
+    <div className=" m-4 md:m-0 md:pb-20 py-10 bg-[#1D232A]">
       <h1 className=" md:text-5xl md:pb-5 text-4xl text-white text-center mb-5 md:mb-5">
         A Talented team <br /> for-your startup
       </h1>
