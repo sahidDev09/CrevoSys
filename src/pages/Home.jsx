@@ -1,3 +1,4 @@
+import GetTouch from "@/components/getTouch";
 import Hero from "../components/Hero";
 
 import Services from "../components/Services";
@@ -12,6 +13,7 @@ const Home = () => {
       <Teams />
       <StartupCard />
       <Services />
+      <GetTouch />
     </div>
   );
 };

@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Error from "./pages/Error";
 import TeamsMember from "./pages/TeamsMember";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -32,6 +33,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    
+      <RouterProvider router={router} />
+    
   </StrictMode>
 );
