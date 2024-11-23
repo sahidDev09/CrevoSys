@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const GetTouch = () => {
   return (
@@ -14,9 +15,11 @@ const GetTouch = () => {
         Use customer data to build great and solid product <br /> experiences
         that convert.
       </p>
-      <button className="flex mx-auto bg-gradient-to-b from-[#FFB16B] to-[#996A40]">
-        Let&apos;s get in touch
-      </button>
+      <Link to="/contact">
+        <button className="flex mx-auto bg-gradient-to-b from-[#FFB16B] to-[#996A40]">
+          Let&apos;s get in touch
+        </button>
+      </Link>
       <img
         className="absolute -bottom-32 md:w-80 hidden md:inline right-16"
         src="/Color-line-shape.webp"

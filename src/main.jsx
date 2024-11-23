@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import Contact from "./components/Contact";
 import Error from "./pages/Error";
 import TeamsMember from "./pages/TeamsMember";
-
+import { ReactLenis } from "lenis/react";
 
 const router = createBrowserRouter([
   {
@@ -33,8 +33,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    
+    <ReactLenis root>
       <RouterProvider router={router} />
-    
+    </ReactLenis>
   </StrictMode>
 );
