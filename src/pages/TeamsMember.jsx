@@ -1,10 +1,40 @@
 const TeamsMember = () => {
   const teams = [
-    { id: 1, picture: "sahid_withoutGlow.jpg", name: "SAHID - CEO" },
-    { id: 2, picture: "joyant_withoutGlow.jpg", name: "JOYANT - CTO" },
-    { id: 3, picture: "mumu_withoutGlow.jpg", name: "MUMU - CBO" },
-    { id: 4, picture: "abid_withoutGlow.jpg", name: "ABID - COO" },
-    { id: 5, picture: "sumon_withoutGlow.jpg", name: "SUMON - CMO" },
+    {
+      id: 1,
+      picture: "sahid_withoutGlow.jpg",
+      name: "MD ABU SAHID",
+      Designation: "Cheif Executive Officer (CEO)",
+      Position: "MERN-DEVELOPER & UI/UX",
+    },
+    {
+      id: 2,
+      picture: "joyant_withoutGlow.jpg",
+      name: "JOYANT SHEIKHAR GUPTA JOY",
+      Designation: "Cheif Technology Officer (CTO)",
+      Position: "SOFTWARE DEVELOPER",
+    },
+    {
+      id: 3,
+      picture: "mumu_withoutGlow.jpg",
+      name: "MAHBUBA KHANOM MUMU",
+      Designation: "Cheif Brand Officer (CBO)",
+      Position: "GRAPHIC DESIGNER",
+    },
+    {
+      id: 4,
+      picture: "abid_withoutGlow.jpg",
+      name: "ABID SHAHRIAR",
+      Designation: "Cheif Operating Officer (COO)",
+      Position: "WEB DEVELOPER",
+    },
+    {
+      id: 5,
+      picture: "sumon_withoutGlow.jpg",
+      name: "SHAMSUL ISLAM",
+      Designation: "Cheif Marketing Officer",
+      Position: "DIGITAL MARKETER",
+    },
   ];
 
   return (
@@ -24,7 +54,16 @@ const TeamsMember = () => {
                 )})`,
               }}>
               <div className="absolute bottom-0 text-center flex flex-col mx-auto w-full bg-gradient-to-t from-[#070707] to-transparent">
-                <h1 className=" font-semibold mb-5 text-white">{team.name}</h1>
+                <h1 className=" font-semibold text-2xl text-white">
+                  {team.name}
+                </h1>
+                <p className=" text-gray-400 font-semibold">{team.Designation}</p>
+                <h1 className=" flex flex-col text-start items-center text-white">
+                 
+                  <span className=" mt-2 mb-4 bg-orange-400 rounded-xl p-2 text-black text-2xl font-bold">
+                    {team.Position}
+                  </span>
+                </h1>
               </div>
             </div>
 
@@ -36,7 +75,6 @@ const TeamsMember = () => {
           </div>
         ))}
       </div>
-     
     </div>
   );
 };

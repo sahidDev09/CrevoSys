@@ -2,3 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "node_modules/vanilla-infinite-marquee/infinite-marquee.css";
