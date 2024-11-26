@@ -179,7 +179,7 @@ const SkiilsMaarque = () => {
         />
         <img
           className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/icons/VisualStudio-Dark.svg"
+          src="/icons/VSCode-Dark.svg"
           alt=""
         />
         <img

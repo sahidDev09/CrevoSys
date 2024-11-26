@@ -11,7 +11,7 @@ const Services = () => {
   }, []);
 
   return (
-    <div className="relative overflow-hidden services min-h-screen w-full bg-cover bg-no-repeat bg-center bg-[url('/servicebg.png')] ">
+    <div className="relative overflow-hidden services md:pb-20 w-full bg-cover bg-no-repeat bg-center bg-[url('/elements/servicebg.png')] ">
       <h1 className="text-center py-14 md:text-5xl text-3xl text-white">
         Services Web Provide
       </h1>
@@ -20,9 +20,9 @@ const Services = () => {
           <div
             key={index}
             className=" group bg-[#1B1B1B] p-10 flex flex-col gap-5 rounded-2xl md:my-10 hover:border border-gray-600 transition-all arrow-hover:text-orange-500">
-            <img className=" w-28 h-28" src={serviceCard.icon} alt="" />
-            <h1 className=" text-2xl text-white font-semibold">{serviceCard.title}</h1>
-            <p className=" text-gray-500">{serviceCard.description}</p>
+            <img className=" md:w-32 md:h-32 w-24 h-24" src={serviceCard.icon} alt="" />
+            <h1 className=" text-3xl text-white">{serviceCard.title}</h1>
+            <p className=" text-gray-500 text-lg">{serviceCard.description}</p>
             <p className=" flex gap-3 hover:text-blue-500 items-center group-hover:">
               Learn more
               <span className="group-hover:text-orange-500 group-hover:animate-bounce">

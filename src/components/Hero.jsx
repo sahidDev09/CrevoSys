@@ -1,4 +1,3 @@
-
 const Hero = () => {
   return (
     <div className="flex flex-col gap-3 justify-center mt-12 container mx-auto">
@@ -7,7 +6,7 @@ const Hero = () => {
           <div className="flex items-center gap-3 md:py-2 md:px-3 p-2">
             <img
               className="w-[30px] h-[30px] rounded-2xl"
-              src="star.png"
+              src="/elements/star.png"
               alt=""
             />
             <h1 className="text-black font-semibold text-sm md:text-base">

@@ -22,7 +22,7 @@ const GetTouch = () => {
       </Link>
       <img
         className="absolute -bottom-32 md:w-80 hidden md:inline right-16"
-        src="/Color-line-shape.webp"
+        src="/elements/Color-line-shape.webp"
         alt=""
       />
     </div>

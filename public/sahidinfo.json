@@ -1,0 +1,51 @@
+{
+  "personalInfo": {
+    "name": "MD ABU SAHID",
+    "picture": "/Team/sahid_withoutGlow.jpg",
+    "designation": "MERN Stack Developer & UI/UX Designer",
+    "email": "iamsahidofficial99@gmail.com",
+    "position": "Chief Executive Officer (CEO)"
+  },
+  "socialMedia": [
+    {
+      "socialname": "Facebook",
+      "icon": "./icons/facebook.svg",
+      "link": "https://www.facebook.com/Sm.sahid99/"
+    },
+    {
+      "socialname": "Instagram",
+      "icon": "./icons/instagram 2.svg",
+      "link": "https://www.instagram.com/0sahid_99/"
+    },
+    {
+      "socialname": "LinkedIn",
+      "icon": "./icons/linkedin 2.svg",
+      "link": "https://www.linkedin.com/in/sahidofficial09/"
+    },
+    {
+      "socialname": "GitHub",
+      "icon": "./icons/github.svg",
+      "link": "https://github.com/sahidDev09"
+    },
+    {
+      "socialname": "Behance",
+      "icon": "./icons/behance.svg",
+      "link": "https://www.behance.net/sahidahmed"
+    },
+    {
+      "socialname": "Dribbble",
+      "icon": "./icons/dribbble.svg",
+      "link": "https://dribbble.com/sahid_09"
+    },
+    {
+      "socialname": "Portfolio",
+      "icon": "./icons/portfolio.png",
+      "link": "https://sahiddev.netlify.app"
+    }
+  ],
+  "projects": {
+    "fullstack": [],
+    "frontendAnimation": [],
+    "uxui": []
+  }
+}
