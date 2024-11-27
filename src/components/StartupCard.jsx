@@ -10,7 +10,7 @@ const StartupCard = () => {
         <div className=" absolute z-10 right-0 -bottom-10 hidden md:inline">
           <img className=" w-96" src="/elements/Right-hand.webp" alt="" />
         </div>
-        <div className="relative h-[550px] w-full rounded-2xl container mx-auto bg-gradient-to-b from-[#F6AA68] to-[#90643D] overflow-hidden">
+        <div className="relative h-[550px] w-full rounded-2xl container mx-auto bg-[#414141] overflow-hidden">
           <div className=" absolute h-96 w-96 bg-gradient-to-b from-[#A542E2] to-[#1BB6EB] rounded-full bg-no-repeat -top-14 -right-14 bg-contain "></div>
           {/* all content */}
           <div className=" absolute w-full md:p-10 p-5">
@@ -22,7 +22,7 @@ const StartupCard = () => {
                   src="/elements/Rectangle.png"
                   alt=""
                 />
-                <h1 className=" text-black text-3xl w-[500px] font-semibold hidden md:inline">
+                <h1 className=" text-white text-3xl w-[500px] font-semibold hidden md:inline">
                   Our awesome team is creating a specialised marketplace
                   tailored for our clients.
                 </h1>
