@@ -20,92 +20,54 @@ const SkiilsMaarque = () => {
         <img
           className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
           src="/icons/HTML.svg"
-          alt=""
+          alt="HTML"
         />
-
         <img
           className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/TailwindCSS-dark.svg"
-          alt=""
+          src="/icons/TailwindCSS-Dark.svg"
+          alt="TailwindCSS"
         />
         <img
           className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
           src="/icons/Bootstrap.svg"
-          alt=""
+          alt="Bootstrap"
         />
         <img
           className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/Supabase-dark.svg"
-          alt=""
+          src="/icons/Supabase-Dark.svg"
+          alt="Supabase"
         />
         <img
           className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/Firebase-dark.svg"
-          alt=""
+          src="/icons/Firebase-Dark.svg"
+          alt="Firebase"
         />
         <img
           className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/CSS.svg"
-          alt=""
+          src="/icons/CSS.svg"
+          alt="CSS"
         />
         <img
-          className=" w-20 mr-2 rounded-[25px] grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/clerk.png"
-          alt=""
-        />
-        <img
-          className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/MongoDB.svg"
-          alt=""
+          className="w-20 mr-2 rounded-[25px] grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
+          src="/icons/clerk.png"
+          alt="Clerk"
         />
         <img
           className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/NodeJS-dark.svg"
-          alt=""
+          src="/icons/MongoDB.svg"
+          alt="MongoDB"
         />
         <img
           className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/ExpressJS-dark.svg"
-          alt=""
+          src="/icons/NodeJS-Dark.svg"
+          alt="Node.js"
         />
         <img
           className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/CPP.svg"
-          alt=""
-        />
-        <img
-          className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/StackOverflow-dark.svg"
-          alt=""
-        />
-        <img
-          className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/C.svg"
-          alt=""
-        />
-
-        <img
-          className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/Python-dark.svg"
-          alt=""
-        />
-        <img
-          className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/Java-dark.svg"
-          alt=""
-        />
-        <img
-          className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/Django.svg"
-          alt=""
-        />
-        <img
-          className="w-20 mr-2 grayscale hover:grayscale-0 transition duration-300 hover:scale-105"
-          src="/public/icons/MySQL-dark.svg"
-          alt=""
+          src="/icons/ExpressJS-Dark.svg"
+          alt="Express.js"
         />
       </Marquee>
-
       {/* maarque for left slider */}
 
       <Marquee

@@ -1,4 +1,4 @@
-import info from "/public/sahidinfo.json";
+import info from "/src/json/sahidinfo.json";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
 
 const Sahid = () => {
