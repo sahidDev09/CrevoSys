@@ -7,7 +7,6 @@ import {
   CardHeader,
   CardTitle,
 } from "../ui/card";
-import { MdViewInAr } from "react-icons/md";
 
 const Sahid = () => {
   const { personalInfo, socialMedia, projects } = info;
@@ -54,6 +53,7 @@ const Sahid = () => {
               Ui Design{" "}
             </TabsTrigger>
           </TabsList>
+          {/* full stack cards */}
           <TabsContent
             className="grid grid-cols-3 gap-7 my-5"
             value="fullstack">
@@ -68,10 +68,12 @@ const Sahid = () => {
                     </CardDescription>
                   </CardHeader>
                   <CardFooter className="hover:bg-transparent ">
-                    {/* Prevent hover effect from CardFooter */}
-                    <button className=" hover:bg-[#FB923C] transition-all flex gap-3 items-center w-full justify-center rounded-[5px] bg-zinc-800  hover:cursor-pointer">
-                      Live Preview
-                    </button>
+                    <a
+                      href={stack.live}
+                      target="_blank"
+                      className="hover:bg-[#FB923C] transition-all flex gap-3 items-center w-full justify-center rounded-[5px] bg-zinc-800  hover:cursor-pointer">
+                      <button className=" bg-transparent">Live Preview</button>
+                    </a>
                   </CardFooter>
                 </Card>
               </div>
