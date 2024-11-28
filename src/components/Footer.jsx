@@ -2,17 +2,20 @@ import "./style.css";
 
 const Footer = () => {
   return (
-    <footer className="footer flex flex-col bg-[#1B1B1B] text-base-content px-10 py-4">
-      <div className="md:flex justify-between items-center px-5 w-full container mx-auto ">
-        <div className="md:flex mx-auto md:mx-0 text-center md:text-start ">
+    <footer className="footer flex flex-col  bg-[#1B1B1B] text-base-content md:px-10 md:py-4">
+      <div className="md:flex md:justify-between items-center w-full container mx-auto">
+        <div className="md:flex items-center mx-auto md:mx-0 text-center md:text-start">
           <div className="flex items-center mx-auto justify-center">
-            <img className="w-16 h-16" src="crevoicon.png" alt="" />
+            <img className="w-24 h-24" src="crevoicon.png" alt="" />
           </div>
-          <p>
-            <span className="text-xl font-bold">CrevoSys</span>
-            <br /> Build innovative systems for a better tomorrow
-          </p>
+          <div>
+            <h1 className=" text-2xl font-semibold">CrevoSys</h1>
+            <p className=" text-lg">Creativity Sparks Revolution</p>
+          </div>
         </div>
+        <h1 className="md:text-lg mx-auto">
+          ©️ All copyrights reserve for CrevoSys
+        </h1>
         <div className="md:place-self-center md:justify-self-end mx-auto md:mx-0">
           <div className="grid grid-flow-col gap-4">
             <ul className="wrapper">

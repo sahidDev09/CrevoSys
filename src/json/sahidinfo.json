@@ -44,8 +44,90 @@
     }
   ],
   "projects": {
-    "fullstack": [],
-    "frontendAnimation": [],
-    "uxui": []
+    "fullstack": [
+      {
+        "projectName": "Learnica (Web Warriors)",
+        "type": "Course Management System",
+        "image": "/public/ProjectsThumbnail/learnica.jpg",
+        "live": "https://learnica-2-0.vercel.app",
+        "repo": "https://github.com/sahidDev09/Learnica-2.0.git"
+      },
+      {
+        "projectName": "Medi-Nova",
+        "type": "Diagonistic Center management",
+        "image": "/public/ProjectsThumbnail/mediNova.jpg",
+        "live": "https://medinova-dc16a.firebaseapp.com",
+        "repo": "https://github.com/sahidDev09/Medi-Nova-client-MERN.git"
+      },
+      {
+        "projectName": "Career Linker",
+        "type": "Job Portal Platform",
+        "image": "/public/ProjectsThumbnail/careerLinker.jpg",
+        "live": "https://learnica-2-0.vercel.app",
+        "repo": "https://github.com/sahidDev09/CareerLinker--Job-Portal-.git"
+      },
+
+      {
+        "projectName": "Luba Beauty",
+        "type": "Costemics Store",
+        "image": "/public/ProjectsThumbnail/lubabeauty.jpg",
+        "live": "https://lubabeauty-8277b.web.app",
+        "repo": "https://github.com/sahidDev09/Luba-Beauty-client.git"
+      },
+
+      {
+        "projectName": "WriteWave",
+        "type": "Blog Management",
+        "image": "/public/ProjectsThumbnail/writewave.jpg",
+        "live": "https://writewave-99267.web.app",
+        "repo": "https://github.com/sahidDev09/WriteWave-Client-react.git"
+      }
+    ],
+    "frontendAnimation": [
+      {
+        "projectName": "Apple Landing",
+        "type": "Apple Clone GSAP",
+        "image": "/public/ProjectsThumbnail/mac.jpg",
+        "live": "https://maclanding.netlify.app"
+      },
+      {
+        "projectName": "Portfolio",
+        "type": "Animated portfolio",
+        "image": "/public/ProjectsThumbnail/portfolio.jpg",
+        "live": "https://sahiddev.netlify.app"
+      },
+      {
+        "projectName": "FoodPanda",
+        "type": "FoodPanda Clone",
+        "image": "/public/ProjectsThumbnail/foodpanda.jpg",
+        "live": "https://sahiddev09.github.io/FoodPanda_recreate/"
+      }
+    ],
+    "uxui": [
+      {
+        "image": "/public/Design/learn.jpg"
+      },
+      {
+        "image": "/public/Design/logo.jpg"
+      },
+      {
+        "image": "/public/Design/luba.png"
+      },
+      {
+        "image": "/public/Design/mediNova.jpg"
+      },
+      {
+        "image": "/public/Design/mobile.jpg"
+      },
+      {
+        "image": "/public/Design/port.jpg"
+      },
+      {
+        "image": "/public/Design/mobileui.jpg"
+      },
+      {
+        "image": "/public/Design/tshirt.png"
+      }
+    ]
   }
 }

@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="navbar container mx-auto py-5">
       <div className="navbar-start">
         <Link to="/">
-          <img src="crevoSysNav.png" alt="navlogo" className="w-40" />
+          <img src="crevoSysNav.png" alt="navlogo" className=" w-52" />
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
