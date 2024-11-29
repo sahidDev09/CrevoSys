@@ -79,10 +79,46 @@ const Sahid = () => {
               </div>
             ))}
           </TabsContent>
-          <TabsContent value="animation">
-            Change your password here.
+          <TabsContent
+            className="grid grid-cols-3 gap-7 my-5"
+            value="animation">
+            {projects.frontendAnimation.map((anim, index) => (
+              <div className="" key={index}>
+                <Card className="h-full rounded-[5px] border-none bg-zinc-700 text-white">
+                  <CardHeader>
+                    <img src={anim.image} alt="" />
+                    <CardTitle>{anim.projectName}</CardTitle>
+                    <CardDescription className="text-lg text-gray-400">
+                      Type: {anim.type}
+                    </CardDescription>
+                  </CardHeader>
+                  <CardFooter className="hover:bg-transparent ">
+                    <a
+                      href={anim.live}
+                      target="_blank"
+                      className="hover:bg-[#FB923C] transition-all flex gap-3 items-center w-full justify-center rounded-[5px] bg-zinc-800  hover:cursor-pointer">
+                      <button className=" bg-transparent">Live Preview</button>
+                    </a>
+                  </CardFooter>
+                </Card>
+              </div>
+            ))}
           </TabsContent>
-          <TabsContent value="design">Ui design here...</TabsContent>
+          <TabsContent value="design" className="grid grid-cols-3 gap-7 my-5">
+            {projects.uxui.map((ui, index) => (
+              <div className="" key={index}>
+                <Card className="h-full rounded-[5px] border-none bg-zinc-700 text-white">
+                  <CardHeader>
+                    <img className="h-72 object-cover" src={ui.image} alt="" />
+                    <CardTitle>{ui.name}</CardTitle>
+                    <CardDescription className="text-lg text-gray-400">
+                      Tools: {ui.tools}
+                    </CardDescription>
+                  </CardHeader>
+                </Card>
+              </div>
+            ))}
+          </TabsContent>
         </Tabs>
       </div>
     </div>
