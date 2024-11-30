@@ -16,6 +16,7 @@ const TeamsMember = () => {
       name: "JOYANT SHEIKHAR GUPTA JOY",
       Designation: "Cheif Technology Officer (CTO)",
       Position: "SOFTWARE DEVELOPER",
+      pageGoto: "/joyant",
     },
     {
       id: 3,

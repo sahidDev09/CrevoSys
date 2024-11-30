@@ -9,6 +9,7 @@ import Error from "./pages/Error";
 import TeamsMember from "./pages/TeamsMember";
 import { ReactLenis } from "lenis/react";
 import Sahid from "./components/TemsDetails/Sahid";
+import Joyant from "./components/TemsDetails/Joyant";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/sahid",
         element: <Sahid />,
+      },
+      {
+        path: "/joyant",
+        element: <Joyant />,
       },
     ],
   },
