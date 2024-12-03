@@ -8,9 +8,24 @@ const Teams = () => {
       name: "SAHID - CEO",
       pageGoto: "/sahid",
     },
-    { id: 2, picture: "/Team/joyant_withoutGlow.jpg", name: "JOYANT - CTO" },
-    { id: 3, picture: "/Team/mumu_withoutGlow.jpg", name: "MUMU - CBO" },
-    { id: 4, picture: "/Team/abid_withoutGlow.jpg", name: "ABID - COO" },
+    {
+      id: 2,
+      picture: "/Team/joyant_withoutGlow.jpg",
+      name: "JOYANT - CTO",
+      pageGoto: "/joyant",
+    },
+    {
+      id: 3,
+      picture: "/Team/mumu_withoutGlow.jpg",
+      name: "MUMU - CBO",
+      pageGoto: "/mumu",
+    },
+    {
+      id: 4,
+      picture: "/Team/abid_withoutGlow.jpg",
+      name: "ABID - COO",
+      pageGoto: "/abid",
+    },
   ];
 
   return (

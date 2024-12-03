@@ -1,0 +1,27 @@
+{
+  "personalInfo": {
+    "name": "SHAMSUL ISLAM",
+    "picture": "",
+    "designation": "Digital Marketer & SEO Consultant",
+    "email": "shamsulislamit@gmail.com",
+    "position": "Chief Marketing Officer (CMO)"
+  },
+  "socialMedia": [
+    {
+      "socialname": "Facebook",
+      "icon": "./icons/facebook.svg",
+      "link": "https://www.facebook.com/itshamsbd"
+    },
+    {
+      "socialname": "Instagram",
+      "icon": "./icons/instagram 2.svg",
+      "link": "https://www.instagram.com/itshamsbd/"
+    },
+    {
+      "socialname": "LinkedIn",
+      "icon": "./icons/linkedin 2.svg",
+      "link": "https://www.linkedin.com/in/itshamsbd/"
+    }
+  ],
+  "projects": []
+}

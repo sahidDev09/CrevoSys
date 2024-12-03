@@ -1,0 +1,53 @@
+{
+  "personalInfo": {
+    "name": "JOYANT SHEIKHAR GUPTA JOY",
+    "picture": "/Team/joyant_withoutGlow.jpg",
+    "designation": "Software Developer",
+    "email": "joyantsheikharguptajoy@gmail.com",
+    "position": "Chief Technology Officer (CTO)"
+  },
+  "socialMedia": [
+    {
+      "socialname": "Facebook",
+      "icon": "./icons/facebook.svg",
+      "link": "https://www.facebook.com/joyant.s.g.j"
+    },
+    {
+      "socialname": "Instagram",
+      "icon": "./icons/instagram 2.svg",
+      "link": "https://www.instagram.com/joyant_s_g_j/"
+    },
+    {
+      "socialname": "LinkedIn",
+      "icon": "./icons/linkedin 2.svg",
+      "link": "https://www.linkedin.com/in/joyant-s-g-j/"
+    },
+    {
+      "socialname": "GitHub",
+      "icon": "./icons/github.svg",
+      "link": "https://github.com/joyant-s-g-j"
+    }
+  ],
+  "projects": {
+    "fullstack": [
+      {
+        "projectName": "Smart Care",
+        "type": "Hospital Management System",
+        "image": "https://i.postimg.cc/W1Xdn9sz/smartcare-1.png",
+        "repo": "https://github.com/joyant-s-g-j/Phi-Library"
+      },
+      {
+        "projectName": "UCPG",
+        "type": "University Cover Page Generator",
+        "image": "https://i.postimg.cc/GhP8BLNk/ucpg-1.png",
+        "repo": "https://github.com/joyant-s-g-j/University-Cover-Page-Generator"
+      },
+      {
+        "projectName": "E Library",
+        "type": "Book Shop Management System",
+        "image": "https://i.postimg.cc/mgbc7xfK/elibrary-1.png",
+        "repo": "https://github.com/joyant-s-g-j/Phi-Library"
+      }
+    ]
+  }
+}

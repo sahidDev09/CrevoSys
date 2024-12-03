@@ -16,6 +16,7 @@ const TeamsMember = () => {
       name: "JOYANT SHEIKHAR GUPTA JOY",
       Designation: "Cheif Technology Officer (CTO)",
       Position: "SOFTWARE DEVELOPER",
+      pageGoto: "/joyant",
     },
     {
       id: 3,
@@ -23,6 +24,7 @@ const TeamsMember = () => {
       name: "MAHBUBA KHANOM MUMU",
       Designation: "Cheif Brand Officer (CBO)",
       Position: "GRAPHIC DESIGNER",
+      pageGoto: "/mumu",
     },
     {
       id: 4,
@@ -30,6 +32,7 @@ const TeamsMember = () => {
       name: "ABID SHAHRIAR",
       Designation: "Cheif Operating Officer (COO)",
       Position: "WEB DEVELOPER",
+      pageGoto: "/abid",
     },
     {
       id: 5,
@@ -37,6 +40,7 @@ const TeamsMember = () => {
       name: "SHAMSUL ISLAM",
       Designation: "Cheif Marketing Officer",
       Position: "DIGITAL MARKETER",
+      pageGoto: "/sumon"
     },
   ];
 

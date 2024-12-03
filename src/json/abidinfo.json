@@ -1,0 +1,81 @@
+{
+  "personalInfo": {
+    "name": "Abid Shahriar",
+    "picture": "/Team/abid_withoutGlow.jpg",
+    "designation": "Web Developer",
+    "email": "codewith.shahriar1@gmail.com",
+    "position": "Chief Operating Officer (COO) "
+  },
+  "socialMedia": [
+    {
+      "socialname": "Facebook",
+      "icon": "./icons/facebook.svg",
+      "link": "https://www.facebook.com/abidshahriar23"
+    },
+    {
+      "socialname": "Instagram",
+      "icon": "./icons/instagram 2.svg",
+      "link": "https://www.instagram.com/sherry.iar"
+    },
+    {
+      "socialname": "LinkedIn",
+      "icon": "./icons/linkedin 2.svg",
+      "link": "https://linkedin.com/in/abidshahriar23"
+    },
+    {
+      "socialname": "GitHub",
+      "icon": "./icons/github.svg",
+      "link": "https://github.com/CodewithShahriar"
+    },
+
+    {
+      "socialname": "Portfolio",
+      "icon": "./icons/portfolio.png",
+      "link": ""
+    }
+  ],
+  "projects": {
+    "frontend": [
+      {
+        "projectName": "Nexvosys",
+        "type": "IT solutions service website",
+        "image": "https://i.postimg.cc/Sstf3VGS/nexvosys.png",
+        "live": "https://nexvosys.netlify.app/",
+        "repo": "https://github.com/CodewithShahriar/nexvosys.git"
+      },
+      {
+        "projectName": "Techno Lab",
+        "type": "IT solutions service website",
+        "image": "https://i.postimg.cc/y6kMdbtT/technolab.png",
+        "live": "https://techno-lab.netlify.app/",
+        "repo": "https://github.com/CodewithShahriar/techno-lab.git"
+      },
+      {
+        "projectName": "Seoul Kitchenista",
+        "type": "Korean Resturent Website",
+        "image": "https://i.postimg.cc/d3bmt1Xg/kitchenista.png",
+        "live": "https://seoul-kitchenista-6a2d9.web.app/"
+      },
+      {
+        "projectName": "legal Solution",
+        "type": "Legal Service Website",
+        "image": "https://i.postimg.cc/tTgzB8Wv/justice.png",
+        "live": "https://venerable-belekoy-74b25e.netlify.app/#"
+      },
+      {
+        "projectName": "Fitness Center",
+        "type": "Fitness Center Website",
+        "image": "https://i.postimg.cc/LsDTBmYZ/fitness.png",
+
+        "live": "https://codewithshahriar.github.io/fitness-center/"
+      },
+
+      {
+        "projectName": "Rinterio",
+        "type": "Architectural services,",
+        "image": "https://i.postimg.cc/0jM0smtp/rinterio.png",
+        "live": "https://codewithshahriar.github.io/fitness-center/"
+      }
+    ]
+  }
+}

@@ -9,6 +9,10 @@ import Error from "./pages/Error";
 import TeamsMember from "./pages/TeamsMember";
 import { ReactLenis } from "lenis/react";
 import Sahid from "./components/TemsDetails/Sahid";
+import Joyant from "./components/TemsDetails/Joyant";
+import Mumu from "./components/TemsDetails/Mumu";
+import Abid from "./components/TemsDetails/Abid";
+import Sumon from "./components/TemsDetails/Sumon";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +35,22 @@ const router = createBrowserRouter([
       {
         path: "/sahid",
         element: <Sahid />,
+      },
+      {
+        path: "/joyant",
+        element: <Joyant />,
+      },
+      {
+        path: "/mumu",
+        element: <Mumu />,
+      },
+      {
+        path: "/abid",
+        element: <Abid />,
+      },
+      {
+        path: "/sumon",
+        element: <Sumon />,
       },
     ],
   },

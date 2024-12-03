@@ -1,0 +1,126 @@
+{
+  "personalInfo": {
+    "name": "Mahbuba Khanom Mumu",
+    "picture": "/Team/mumu_withoutGlow.jpg",
+    "designation": "Graphic Designer",
+    "email": "mahbubamumu@gmail.com",
+    "position": "Chief Brand Officer (CBO)"
+  },
+  "socialMedia": [
+    {
+      "socialname": "Facebook",
+      "icon": "./icons/facebook.svg",
+      "link": "https://www.facebook.com/muuumuuuuu"
+    },
+    {
+      "socialname": "Instagram",
+      "icon": "./icons/instagram 2.svg",
+      "link": "https://www.instagram.com/__mu__muu__/"
+    }
+  ],
+  "projects": {
+    "arts": [
+      {
+        "image": "https://i.postimg.cc/9M3WQwGP/Basketball-Illustration.png",
+        "name": "Basketball-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+
+      {
+        "image": "https://i.postimg.cc/LXzmY4Tc/Boating-Illustration.png",
+        "name": "Boating-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/TYQYJw6G/Boxing-Illustration.png",
+        "name": "Boxing-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/x8nnKrpc/Cycling-Illustration.png",
+        "name": "Cycling-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/43HfGQhN/Cycling-Illustration-2.png",
+        "name": "Cycling-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/zXDqvrRQ/Gardening-Illustratior.png",
+        "name": "Gardening-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/SRdqdZHV/Golf-illustration.png",
+        "name": "Golf-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/Y2zpt9jg/gymnastics-illustration.png",
+        "name": "Gymnastics-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/02tPJBYy/judo-illustration2.png",
+        "name": "Judo-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/764pR33R/Landscape.png",
+        "name": "Landscape",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/P5PhbQyz/Landscape-Japan.png",
+        "name": "Landscape-Japan",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/BZpGdVwB/Photography.png",
+        "name": "Photography",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/XqsSdryz/Road-Hill.png",
+        "name": "Road hills",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/kX5d9v03/Sailing-Illustration.png",
+        "name": "Sailing-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/FsnXKJvf/Shooting-Illustration.png",
+        "name": "Shooting-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/DwJk4yfx/snooker-Illustration.png",
+        "name": "Snooker-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/zGsmCZV8/sunset.png",
+        "name": "Sunset",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/vBvpw4XZ/Swimming-Illustration.png",
+        "name": "Swimming-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/ZnKXbJDF/Tennis-Illustration.png",
+        "name": "Tennis-Illustration",
+        "tools": "Photoshop, Illustrator"
+      },
+      {
+        "image": "https://i.postimg.cc/yxQtW2Mq/Village-Illustration.png",
+        "name": "Village-Illustration",
+        "tools": "Photoshop, Illustrator"
+      }
+    ]
+  }
+}

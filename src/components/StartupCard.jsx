@@ -2,7 +2,7 @@ import { ShieldCheck } from "lucide-react";
 
 const StartupCard = () => {
   return (
-    <div className="m-4 md:m-0 md:pb-20 py-10 md:bg-[#1B1B1B]">
+    <div className="m-4 md:m-0 md:pb-20 py-10">
       <h1 className=" md:text-5xl md:pb-5 text-4xl text-white text-center mb-5 md:mb-5">
         A Talented team <br /> for-your startup
       </h1>
@@ -10,7 +10,7 @@ const StartupCard = () => {
         <div className=" absolute z-10 right-0 -bottom-10 hidden md:inline">
           <img className=" w-96" src="/elements/Right-hand.webp" alt="" />
         </div>
-        <div className="relative h-[550px] w-full rounded-2xl container mx-auto bg-[#414141] overflow-hidden">
+        <div className="relative h-[550px] w-full rounded-2xl container mx-auto bg-[#121212] border border-gray-700 overflow-hidden">
           <div className=" absolute h-96 w-96 bg-gradient-to-b from-[#A542E2] to-[#1BB6EB] rounded-full bg-no-repeat -top-14 -right-14 bg-contain "></div>
           {/* all content */}
           <div className=" absolute w-full md:p-10 p-5">
