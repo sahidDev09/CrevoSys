@@ -31,7 +31,7 @@
     {
       "socialname": "Portfolio",
       "icon": "./icons/portfolio.png",
-      "link": ""
+      "link": "https://shahriardev.netlify.app/"
     }
   ],
   "projects": {
@@ -60,7 +60,7 @@
         "projectName": "legal Solution",
         "type": "Legal Service Website",
         "image": "https://i.postimg.cc/tTgzB8Wv/justice.png",
-        "live": "https://venerable-belekoy-74b25e.netlify.app/#"
+        "live": "https://codewithshahriar.github.io/legal-solution/"
       },
       {
         "projectName": "Fitness Center",
@@ -74,7 +74,7 @@
         "projectName": "Rinterio",
         "type": "Architectural services,",
         "image": "https://i.postimg.cc/0jM0smtp/rinterio.png",
-        "live": "https://codewithshahriar.github.io/fitness-center/"
+        "live": "https://codewithshahriar.github.io/Rinterio/"
       }
     ]
   }
